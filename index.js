@@ -76,6 +76,7 @@ function restart(levelChanger) {
     }
     solution = 0
     score = 0
+    scoreDiv.innerText = score
     clearInterval(timer)
     timer = ''
     newQuestion()
